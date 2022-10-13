@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Student</title>
+</head>
+<body>
+    <h1>Create Student</h1>
+
+<form action="/create" method="post">
+
+    <label for="name"> Enter name: </label> <br>
+        <input type="text" name="name"> <br>
+
+    <label for ="email"> Enter email:</label> <br>
+        <input  type="text" name="email"> <br>
+
+    <label for="gender"> Enter Gender: </label> <br>
+        <input  type="text" name="gender"> <br>
+
+
+    <button type="submit">Submit</button>
+
+    <h1>Delete Student</h1>
+</form>
+
+<form action="/delete" method="post">
+
+    <label for="email"> Enter mail to delete: </label>
+    <input type="text" name="email">
+    <button type="submit"> Submit</button>
+
+</form>
+
+<button type="button" onclick="/getAll"> get All Students</button>
+
+
+
+
+</body>
+</html>
